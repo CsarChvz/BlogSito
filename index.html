@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEKPOP</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/codigo.css">
+    <script src="/css/all.min.css"></script>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">WEK POP</a>
+      <nav class="navbar bg-dark">
+        <form class="container-fluid justify-content-start">
+          <button class="btn btn-outline-success me-4" type="button"><i class="fa-solid fa-user"></i>&nbsp; SIGN IN</button>
+          <button class="btn btn-outline-success me-4" type="button">SIGN UP</button>
+        </form>
+      </nav>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CHAT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ARTIST
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#">BTS</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">SUNMI</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">TXT</a></li>
+              </ul>
+            </li>
+          </ul>
+          <br>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <br>
+      <section>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                   <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <div class="container">
+                      <div class="content">
+                      <a href="sunmi.html"><img src="img/somi.jpg" alt="SUNMI WORLD TOUR 2022" width="1000" height="600"></a>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="container">
+                        <div class="content">
+                      <a href="bts.html"><img src="img/me.jpg"  alt="BTS SPECIAL PHOTO" width="1000" height="600"></a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="container">
+                        <div class="content">
+                      <a href="bp.html"><img src="img/bp.jpg" alt="Black Pink world tour 2022" width="1000" height="600"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </section>
+              <script src="/js/bootstrap.min.js"></script>
+              <script src="/js/bootstrap.bundle.min.js"></script>
+              <script src="/js/all.min.js"></script>
+</body>
+</html>
